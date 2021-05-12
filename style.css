@@ -1,23 +1,37 @@
 .container {
-    width: 700px;
+    width: auto;
     margin: 40px auto;
 }
 .introdution {
     background-color: white;
-    padding: 40px;
-    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    padding: 10px;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
     border-radius: 4px;
-    margin: 20px 0px;
+    margin: 10px 0px;
     text-align: center;
+    background-image: url(images/cidade.jpg);
+    background-size: cover;
 }
 
 .follow {
-    background-color: whitesmoke;
-    padding: 40px;
-    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    background-color: rgb(77, 166, 189);
+    padding: 5px;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
     border-radius: 4px;
-    margin: 20px 0px;
+    margin: 5px 0px;
 }
+
+.fotos {
+  background-color: rgb(41, 156, 185);
+  padding: 1px;
+  border-radius: 4px;
+  text-align: center;
+}
+div.box {
+  margin: 70px;
+  display: inline-block;
+}
+
 #profile {
     max-width: 180px;
 }
@@ -53,8 +67,8 @@ h1, h2 {
     text-align: center;
 }
 body {
-    background-color: #f0f6fb;
-    color: #4ca18c;
+    background-color: #a8d8df;
+    color: #d2ebe5;
     font-family: 'Lora', serif;
     font-size: 17px;
     font-weight: lighter;
